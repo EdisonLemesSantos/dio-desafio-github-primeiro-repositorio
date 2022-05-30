@@ -1,0 +1,31 @@
+Comandos para clonar repositorio github
+
+clear - limpa a téla no Guit bash.
+cd ~/ - para acessar diretório administração.
+mkdir - code cria mnovo documento.
+cd code abre o visual code.
+
+git - init inicia um repositório local.
+git add - adiciona arquivos e pastas criados.
+git add * - adiciona todos os arquivos e pastas criados.
+git - commit identifica e armazena no repositório local.
+git commit -m "Texto de informação sobre o commit".
+git commit -am "Texto de informação sobre o commit" Adicionou ao container e criou um commit ao mesmo tempo.
+.git - é o repositorio local armazena os containers e os identifica dentro dos containers os projetos que criamos .
+git - status verifica conteúdo armazenado no conteiner.
+git log --oneline  - mostra commits realizados.
+git log --oneline  --graph - mostra commits realizados simplificado (mostra nodos *ob3386 por exemplo) .
+git log --graph - mostra os nós do grafo.
+git - branch mostra status.
+ls - mostra diretórios ocultos.
+ls -a diretórios não visiveis.
+
+touch - cria arquivos dentro .git.
+
+git remote - verifica se há um repositório remóto.
+git remote add origin https://github.com/EdisonLemesSantos/semanaomnistack11.git  - inicia um repositório remóto.
+git remote -v - verifica todos repositórios remótos.
+git push -u origin master - dá o push, quer dizer empurrar para o repositório remóto.
+git pull - sincroniza as modificações feitas nos arquivos remótos.
+git clone + endereço do repositório
+
